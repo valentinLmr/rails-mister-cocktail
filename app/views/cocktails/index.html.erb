@@ -6,7 +6,7 @@
 <div class="container">
 <% @cocktails.each do |cocktail| %>
   <div class="card-trip">
-    <%= image_tag "mojitos.png", alt: "Le Wagon", width: 200 %>
+    <%= cl_image_tag cocktail.photo, width: 200 %>
     <div class="card-trip-infos">
       <div>
         <h2><%= link_to cocktail.name, cocktail_path(cocktail)%></h2>
@@ -14,6 +14,12 @@
     </div>
   </div>
 <% end %>
+
+
+
+
+
+
 
 
 
