@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Doses.destroy_all
-Cocktails.destroy_all
+Dose.destroy_all
+Cocktail.destroy_all
 Ingredient.destroy_all
 
 require 'open-uri'
