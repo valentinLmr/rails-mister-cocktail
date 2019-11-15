@@ -1,8 +1,6 @@
 <%= render 'component/banner' %>
 
 
-<%= link_to "ajouter un cocktail", new_cocktail_path %>
-
 <div class="container">
 <% @cocktails.each do |cocktail| %>
   <div class="card-trip">
@@ -15,8 +13,11 @@
   </div>
 <% end %>
 
-
-
+<div class="card-add">
+    <a href="/cocktails/new">
+      <i class="fas fa-plus"></i>
+    </a>
+</div>
 
 
 

@@ -4,6 +4,7 @@
     background: white;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     width: 250px;
+    border-radius: 5px;
 }
 
 .card-trip > img {
@@ -30,5 +31,23 @@
   align-items: center;
   position: relative;
 }
+
+.card-add {
+    display:flex;
+    margin: 16px 8px 16px 8px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 250px;
+}
+
+.card-add a {
+    height: 200px;
+    width: 100%;
+    margin: auto;
+    font-size: 110px;
+    text-align: center;
+}
+
 
 
