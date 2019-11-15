@@ -37,7 +37,7 @@
 
   <%= simple_form_for [@cocktail, @dose] do |f| %>
     <%= f.input :description %>
-    <%= f.association :ingredient %>
+    <%= f.association :ingredient, collection: Ingredient.all.order('name ASC')%>
     <%= f.input :amounts %>
     <%= f.submit %>
   <% end  %>
