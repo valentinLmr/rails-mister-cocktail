@@ -5,6 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+Doses.destroy_all
+Cocktails.destroy_all
 Ingredient.destroy_all
 
 require 'open-uri'
@@ -18,3 +22,5 @@ list = JSON.parse(ingredients_list)
 list["drinks"].each do |ingredient|
   Ingredient.create(name: ingredient["strIngredient1"])
 end
+
+Ingredient.create(name: "mint")
