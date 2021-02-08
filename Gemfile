@@ -40,7 +40,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
-gem 'carrierwave', '~> 1.2'
+gem 'carrierwave', '~> 1.3'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary', '~> 1.9.1'
 
